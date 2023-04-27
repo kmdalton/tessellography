@@ -28,7 +28,7 @@ setup(
     include_package_data=True,
     packages=find_packages(),
     long_description=LONG_DESCRIPTION,
-    description="Merging crystallography data without much physics.",
+    description="2d crystallography for teachers",
     project_urls=PROJECT_URLS,
     python_requires=">=3.8,<3.11",
     url="https://github.com/kmdalton/tessellography",
