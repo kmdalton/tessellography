@@ -30,7 +30,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     description="2d crystallography for teachers",
     project_urls=PROJECT_URLS,
-    python_requires=">=3.8,<3.11",
+    python_requires=">=3.8",
     url="https://github.com/kmdalton/tessellography",
     install_requires=[
         "tqdm",
@@ -40,6 +40,8 @@ setup(
         "scipy",
         "scikit-learn",
         "mpl-arrow",
+        "jupyter",
+        "celluloid",
     ],
     scripts=[
     ],
