@@ -1,0 +1,76 @@
+REMARK  99 electronic Ligand Builder and Optimisation Workbench (eLBOW)
+REMARK  99   - a module of PHENIX version 1.20.1-4487-
+REMARK  99   - file written: Sun Apr  2 15:09:24 2023
+REMARK  99
+REMARK  99   Quantum optimisation: True
+REMARK  99   Method: mp2
+REMARK  99   Random seed: 3628800
+REMARK  99   SMILES string: C1=CC2=C(C=C1O)C(=CN2)CCN
+FORMUL   1  LIG    C10 H12 N2 O 
+HETATM    1  C01 LIG A   1       0.089  -0.012   0.101  1.00 20.00      A    C  
+HETATM    2  C02 LIG A   1       1.464   0.001   0.105  1.00 20.00      A    C  
+HETATM    3  C03 LIG A   1       2.113  -0.023   1.344  1.00 20.00      A    C  
+HETATM    4  C04 LIG A   1       1.428  -0.032   2.591  1.00 20.00      A    C  
+HETATM    5  C05 LIG A   1       0.025  -0.049   2.568  1.00 20.00      A    C  
+HETATM    6  C06 LIG A   1      -0.601  -0.038   1.338  1.00 20.00      A    C  
+HETATM    7  O07 LIG A   1      -1.962   0.080   1.318  1.00 20.00      A    O  
+HETATM    8  C08 LIG A   1       2.421  -0.016   3.636  1.00 20.00      A    C  
+HETATM    9  C09 LIG A   1       3.649  -0.022   3.000  1.00 20.00      A    C  
+HETATM   10  N10 LIG A   1       3.483  -0.022   1.603  1.00 20.00      A    N  
+HETATM   11  C11 LIG A   1       2.250  -0.101   5.105  1.00 20.00      A    C  
+HETATM   12  C12 LIG A   1       2.335   1.268   5.833  1.00 20.00      A    C  
+HETATM   13  N13 LIG A   1       2.764   1.087   7.231  1.00 20.00      A    N  
+HETATM   14 H011 LIG A   1      -0.468   0.021  -0.834  1.00 20.00      A    H  
+HETATM   15 H021 LIG A   1       2.024   0.052  -0.835  1.00 20.00      A    H  
+HETATM   16 H051 LIG A   1      -0.542  -0.046   3.493  1.00 20.00      A    H  
+HETATM   17 H071 LIG A   1      -2.306  -0.767   1.028  1.00 20.00      A    H  
+HETATM   18 H091 LIG A   1       4.652  -0.046   3.419  1.00 20.00      A    H  
+HETATM   19 H101 LIG A   1       4.209  -0.007   0.927  1.00 20.00      A    H  
+HETATM   20 H111 LIG A   1       3.018  -0.791   5.519  1.00 20.00      A    H  
+HETATM   21 H112 LIG A   1       1.286  -0.591   5.345  1.00 20.00      A    H  
+HETATM   22 H121 LIG A   1       3.034   1.943   5.299  1.00 20.00      A    H  
+HETATM   23 H122 LIG A   1       1.342   1.772   5.774  1.00 20.00      A    H  
+HETATM   24 H131 LIG A   1       2.023   1.201   7.906  1.00 20.00      A    H  
+HETATM   25 H132 LIG A   1       3.533   1.691   7.493  1.00 20.00      A    H  
+CONECT    1    6   14
+CONECT    1    2
+CONECT    1    2
+CONECT    2    3   15
+CONECT    2    1
+CONECT    2    1
+CONECT    3    2   10
+CONECT    3    4
+CONECT    3    4
+CONECT    4    5    8
+CONECT    4    3
+CONECT    4    3
+CONECT    5    4   16
+CONECT    5    6
+CONECT    5    6
+CONECT    6    7    1
+CONECT    6    5
+CONECT    6    5
+CONECT    7    6   17
+CONECT    8    4   11
+CONECT    8    9
+CONECT    8    9
+CONECT    9   10   18
+CONECT    9    8
+CONECT    9    8
+CONECT   10    9    3   19
+CONECT   11    8   12   20   21
+CONECT   12   11   13   22   23
+CONECT   13   12   24   25
+CONECT   14    1
+CONECT   15    2
+CONECT   16    5
+CONECT   17    7
+CONECT   18    9
+CONECT   19   10
+CONECT   20   11
+CONECT   21   11
+CONECT   22   12
+CONECT   23   12
+CONECT   24   13
+CONECT   25   13
+END
